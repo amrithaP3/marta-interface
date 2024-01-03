@@ -1,0 +1,129 @@
+#arrow {
+    max-width: 50px;
+    max-height: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#icon {
+    max-width: 70px;
+    max-height: 70px;
+    margin-right: 8px;
+
+}
+
+#location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: -30px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#bottomInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0px;
+}
+
+#onTime {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#lineColorGold {
+    margin-right: 15px;
+    width: 90px;
+    height: 28px;
+    border-radius: 9px;
+    background-color: rgb(223, 184, 11);
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 22px;
+    color: white;
+    border: none;
+    margin-right: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#lineColorBlue {
+    margin-right: 15px;
+    width: 90px;
+    height: 28px;
+    border-radius: 9px;
+    background-color: blue;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 22px;
+    color: white;
+    border: none;
+    margin-right: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#lineColorGreen {
+    margin-right: 15px;
+    width: 90px;
+    height: 28px;
+    border-radius: 9px;
+    background-color: green;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 22px;
+    color: white;
+    border: none;
+    margin-right: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#lineColorRed {
+    margin-right: 15px;
+    width: 90px;
+    height: 28px;
+    border-radius: 9px;
+    background-color: red;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 22px;
+    color: white;
+    border: none;
+    margin-right: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#time {
+    position: absolute;
+    left: 1280px;
+    margin-top: -40px;
+}
+
+#num {
+    margin-bottom: -20px;
+}
+
+#allInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#twoSides {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 24px;
+    margin-left: 100px;
+}
+
+#afterLine {
+    margin-left: 70px;
+    width: 950px;
+    height: 2px;
+    margin-bottom: -35px;
+    background-color: rgb(37, 36, 36);
+}

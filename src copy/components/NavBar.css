@@ -1,0 +1,82 @@
+.navBar {
+    background-color: rgb(37, 36, 36);
+    width: 370px;
+    height: 950px;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#navDesc {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 13px;
+    color:rgb(169, 160, 160);
+    margin-top: 28px;
+    margin-bottom: 19px;
+    font-size: 15px;
+}
+
+.listContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+#stations {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 30px;
+    font-size: 17px;
+}
+
+#all {
+    background: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 15px;
+    font-size: 17px;
+    margin-left: 23px;
+    border: none;
+    color: white;
+}
+
+#all:hover {
+    cursor: pointer;
+}
+
+#endMark {
+    width: 300px;
+    margin-left: -29px;
+    height: 2px;
+    background-color: rgb(169, 160, 160);
+    margin-top: -7px;
+    margin-bottom: 10px;
+}
+
+#lastMark {
+    width: 330px;
+    margin-left: -29px;
+    height: 2px;
+    margin-bottom: 10px;
+    background-color: rgb(169, 160, 160);
+}
+
+#station {
+    background: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 15px;
+    font-size: 17px;
+    margin-left: -8px;
+    border: none;
+    color: white;
+}
+
+#station:hover {
+    cursor: pointer;
+}
